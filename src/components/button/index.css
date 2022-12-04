@@ -1,0 +1,56 @@
+.buttonUp {
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    width: 70px;
+    margin: 0px 2px 2px 0px;
+    float: left;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #2ecc71;
+    border: none;
+    border-bottom: 5px solid #27ae60;
+    text-shadow: 0px -2px #27ae60;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.buttonUp:hover, .buttonUp:active {
+    -webkit-transform: translate(0px, 2px);
+    -ms-transform: translate(0px, 2px);
+    transform: translate(0px, 2px);
+    border-bottom: 1px solid #2ecc71;
+}
+
+.buttonDown {
+    cursor: pointer;
+    position: relative;
+    width: 70px;
+    padding: 10px;
+    margin: 0px 2px 2px 0px;
+    float: left;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #ee2d0e;
+    border: none;
+    border-bottom: 5px solid #ee2d0e;
+    text-shadow: 0px -2px #ee2d0e;
+    -webkit-transition: all 0.1s;
+    transition: all 0.1s;
+}
+
+.buttonDown:hover, .buttonDown:active {
+    -webkit-transform: translate(0px, 2px);
+    -ms-transform: translate(0px, 2px);
+    transform: translate(0px, 2px);
+    border-bottom: 1px solid #ee2d0e;
+}
+
+button:disabled {
+    background-color: grey;
+    border-bottom: 5px solid black;
+}

@@ -1,0 +1,64 @@
+/* styles for navbar */
+
+@mixin mobile {
+    @media screen and (max-width:480px) {
+        @content
+    }
+}
+
+@mixin tablet {
+    @media screen and (max-width:768px) {
+        @content
+    }
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 90%;
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.navbar-brand p {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: principal;
+
+    @include tablet {
+        display: none;
+    }
+}
+
+.navbar-loginbutton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    background-color: rgb(72, 20, 120);
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+}
+
+.navbar-loginbutton:disabled {
+    cursor: not-allowed
+}
+
+.navbar-connection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+}

@@ -1,0 +1,27 @@
+.container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.about{
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(74, 23, 100);
+    margin-left: 10px;
+}
+
+.description{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 40%;
+    font-size: 20px;
+    color: black;
+    margin-left: 40px;
+    font-weight: lighter;
+    
+}

@@ -1,0 +1,71 @@
+@font-face {
+  font-family: principal;
+  src: url("./Franchise.ttf");
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: 'Barlow', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+.App-title{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 25px;
+  margin: 30px;
+}
+
+.App-title p {
+  margin: 10px;
+}
+
+.App-subtitle {
+  text-align: center;
+  max-width: 70%;
+  margin-top: 10px;
+  font-size: 3.4rem;
+  }
+
+.App-phrase{
+  font-family: principal;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+.App-bubbles{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.App-login-message {
+  font-size: 2em;
+  text-align: center;
+  
+}
+
+.App-message h1 {
+  background-color: blue;
+  padding: 15px;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.App-message h2 {
+  text-align: center;
+  font-size: 2em;
+}
