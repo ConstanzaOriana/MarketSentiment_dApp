@@ -15,7 +15,7 @@ export const Navbar = () => {
         {network == 80001 ?
           <>
             {loginMetaMask ?
-              <p>Wallet Connected: {user}</p>
+              <p className='connected-wallet'>Wallet Connected: {user}</p>
               :
               <button onClick={conectMetamask} className='navbar-loginbutton'>
                 🦊 Connect  🦊

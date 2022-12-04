@@ -2,7 +2,6 @@
     display: flex;
     justify-content:space-evenly;
     align-items: center;
-    margin-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -11,14 +10,14 @@
     font-family: principal;
     font-size: 40px;
     font-weight: lighter;
-    color: rgb(74, 23, 100);
+    color: rgb(112, 24, 156);
 }
 
 .description{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 40%;
     font-size: 20px;
-    color: black;
+    color: white;
     font-weight: lighter;
     
 }

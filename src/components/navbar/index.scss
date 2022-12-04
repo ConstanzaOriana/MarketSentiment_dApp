@@ -19,6 +19,7 @@
     justify-content: space-between;
     height: 80px;
     width: 90%;
+    color: white;
 }
 
 .navbar-brand {
@@ -31,7 +32,7 @@
 
 .navbar-brand p {
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 300;
     font-family: principal;
 
     @include tablet {
@@ -66,4 +67,12 @@
     justify-content: flex-end;
     flex-wrap: wrap;
     gap: 8px;
+}
+
+.connected-wallet{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 5px;
 }

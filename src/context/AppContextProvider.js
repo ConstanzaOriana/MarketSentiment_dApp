@@ -18,6 +18,8 @@ const AppContextProvider = ({ children }) => {
     const [marketInstance, setmarketInstance] = useState()
     const [network, setNetwork] = useState()
 
+
+    // Creacion de Instancia para renderizar los tickers % sin estar logueado
     useEffect(() => {
         async function init() {
             ethProvider = new ethers.providers.Web3Provider(window.ethereum)
@@ -49,7 +51,7 @@ const AppContextProvider = ({ children }) => {
                                 chainName: "Polygon Testnet Mumbai",
                                 nativeCurrency: {
                                     name: "tMATIC",
-                                    symbol: "tMATIC", 
+                                    symbol: "tMATIC", // 2-6 characters long
                                     decimals: 18,
                                 },
                             },
