@@ -18,7 +18,7 @@ export const Navbar = () => {
               <p>Wallet Connected: {user}</p>
               :
               <button onClick={conectMetamask} className='navbar-loginbutton'>
-                Connect to Metamask
+                🦊 Connect  🦊
               </button>
             }
           </> :

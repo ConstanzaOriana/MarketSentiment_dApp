@@ -49,12 +49,14 @@
   align-items: center;
   justify-content: center;
   gap: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .App-login-message {
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: center;
-  
+  font-family: principal;
+  border-bottom: 1px solid black;
 }
 
 .App-message h1 {

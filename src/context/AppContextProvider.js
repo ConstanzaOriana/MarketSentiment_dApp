@@ -49,7 +49,7 @@ const AppContextProvider = ({ children }) => {
                                 chainName: "Polygon Testnet Mumbai",
                                 nativeCurrency: {
                                     name: "tMATIC",
-                                    symbol: "tMATIC",
+                                    symbol: "tMATIC", 
                                     decimals: 18,
                                 },
                             },

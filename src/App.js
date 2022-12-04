@@ -33,7 +33,7 @@ function App() {
           </div>
           {!loginMetaMask &&
             <div className='App-login-message'>
-              <p>Access 🦊 to make your guess</p>
+              <p>Please access 🦊 in order to vote</p>
             </div>
           }
         </div>        
