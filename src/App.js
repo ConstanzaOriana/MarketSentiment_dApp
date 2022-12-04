@@ -4,7 +4,6 @@ import { Bubble } from './components/bubble';
 import { Navbar } from './components/navbar'
 import AppContext from './context/AppContext';
 import { Footer } from './components/footer';
-import swal from 'sweetalert';
 
 
 function App() {

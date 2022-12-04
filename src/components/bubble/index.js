@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import AppContext from '../../context/AppContext'
 import { Button } from '../button'
-import swal from 'sweetalert';
+import Swal from 'sweetalert2'
 
 import "./index.css"
 
@@ -42,11 +42,13 @@ export const Bubble = (props) => {
         } catch (err) {
             const reason = err.reason.replace("execution reverted: ", "");
             if (reason == "You have already voted this token") {
-                swal({
+                Swal({
                     title: "Error on voting",
                     text: "You have already voted this ticker",
                     icon: "warning",
-                    button: "Return"
+                    button: "Return",
+                    color: "white",
+                    background: "darkviolet"
                   })
             }
         }
