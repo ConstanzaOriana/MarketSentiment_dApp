@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import AppContext from './AppContext';
 const { abi } = require('../data/abi/MarketSentiment.json')
 
-const contractAddr = ''
+const contractAddr = '0x755d1F2B0fEAF6AE1923B6cEcf8D4f1FF5090961'
 let ethProvider;
 let ethSigner;
 let ethAccount;
