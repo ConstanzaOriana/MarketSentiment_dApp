@@ -65,15 +65,15 @@
   color: white;
 }
 
-.App-message h1 {
-  background-color: blue;
+.App-message h3 {
+  font-family: principal;
+  font-size: x-large;
+  font-weight: 200;
+  background-color: white;
+  color: rgb(66, 17, 66);
   padding: 15px;
   border-radius: 40px;
   text-align: center;
   font-size: 3.5em;
 }
 
-.App-message h2 {
-  text-align: center;
-  font-size: 2em;
-}

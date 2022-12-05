@@ -19,9 +19,7 @@ function App() {
       </div>
       {(network !== 80001) ?
         <div className='App-message'>
-          <h1>PLEASE CONNECT TO MUMBAI NETWORK</h1>
-          <h2>AND RELOAD THE WEBSITE</h2>
-          <h2>IN ORDER TO GET MARKET SENTIMENT & EMIT YOUR VOTE</h2>
+          <h3>This dApp works only on Mumbai network</h3>
         </div>
         :
         <div>
